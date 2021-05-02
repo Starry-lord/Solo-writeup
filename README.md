@@ -1,1 +1,1 @@
-# Solo-writeup
+# Solo-writeups
