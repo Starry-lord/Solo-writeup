@@ -1,0 +1,29 @@
+*Yummycrustypizza.com challenge
+Organised by https://github.com/sinfulz
+
+
+
+First I looked for a public Webpage for yummy crusty pizza, by trying to lookup :
+yummycrustypizza.com
+
+Lucky, I found a  hit so I read it and tried to navigate to /database.html, where you see a message about this page being taken off. 
+
+Very big hint towards waybackmachine, so I managed to find the defaced page by snake squad, saved on the 22nd of February, and a few short hashes.
+
+I stuck here for a moment trying to look into "popular" database dump websites looking for 
+site:"shady websites" filetype:.bak.old
+related to the pizza company.
+
+After a couple hours I decided to retrace my steps and try a simple search of yummycrustypizza.com, which I didn't do before,
+Which showed a twitter account that looked to have been taken over by someone else than the owner. 
+
+In there I found a relevant post guiding me to a pastebin link, in which I found a recipe, and a link to some password encrypted data.
+
+That's when the hashes came in handy, cracking them on crackstation.com revealed s1nfulz password being:
+password5
+
+using that password allowed to decrypt the data on cryptobin.co
+
+And I got the flag!
+
+SINFULZ{DUMPED_SECRETS_ON_PUBLIC_SITES_ARE_REAL}
